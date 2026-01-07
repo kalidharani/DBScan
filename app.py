@@ -38,7 +38,8 @@ else:
 # -------------------------------
 # User Input Section (2 Columns)
 # -------------------------------
-st.subheader("🔢 Enter Feature Values")
+st.write("An unsupervised learning application that clusters wine samples using DBSCAN "
+    "and automatically detects anomalous wines.")
 
 col1, col2 = st.columns(2)
 user_input = []
